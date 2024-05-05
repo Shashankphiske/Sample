@@ -58,7 +58,7 @@
     margin-left: 10%;
 }
 .logo{
-    background-image: url("/image8.jpg");
+    background-image: url("./image8.jpg");
     margin-top:9px;
     margin-left:-540%;
     height: 55px;
@@ -607,7 +607,7 @@ button{
         gap: 10px;
     }
     .contact1{
-        background-image: url("/image7.jpg");
+        background-image: url("./image7.jpg");
         background-size: cover;
         /* background-size: 80vh; */
         background-position: center;
