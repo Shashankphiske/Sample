@@ -1,0 +1,819 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, sans-serif;
+}
+.container{
+    overflow: hidden;
+}
+/* hero one */
+
+.heroOne{
+    background-image: url("./image2.jpg");
+    background-size: cover;
+    /* background-size: 230vh; */
+    background-repeat: no-repeat;
+    height: 98vh;
+    width: 100%;
+}
+.menu{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.about{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* nav bar */
+.nav{
+    height: 9vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    z-index: 1;
+    position: fixed;
+}
+     
+
+
+.nav-logo{
+    height: 60px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+
+    justify-content: left;
+    align-items: left;
+
+    margin-bottom: 2px;
+}
+.img10{
+    height: 30%;
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 12%;
+    margin-left: 10%;
+}
+.logo{
+    background-image: url("/image8.jpg");
+    margin-top:9px;
+    margin-left:-540%;
+    height: 55px;
+    width: 150px;
+    background-size: cover;
+    background-size: 16vh;
+    background-repeat: no-repeat;
+    
+}
+
+.nav-toogle :hover{
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+}
+
+.nav-content{
+    color: white;
+    margin-right: -50%;
+}
+/* nav list */
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    cursor: default;
+}
+
+ul i{
+   padding-right: 10px;
+}
+
+ul :hover{
+    color: orange;
+}
+/* nav list */
+
+.Others{
+    margin-left: -10vh;
+    margin-right: 45vh;
+}
+
+.Others i{
+    padding-left: 10px;
+}
+/* background image opacity */
+.background{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    top: 62px;
+}
+
+h3{
+    color: rgba(255, 255, 255, 0.7);
+    /* background-color: white; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 5%;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.7);
+    /* background-color: white; */
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 33%;
+}
+/* button div */
+.button{
+    /* background-color: brown; */
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 49%;
+}
+/* button */
+button{
+    height: 50px;
+    width: 140px;
+    color: rgba(0, 0, 0,);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+    font-family:'Trebuchet MS', sans-serif;
+    border: 1.5px solid black;
+}
+
+/* hero Two */
+
+.heroTwo{
+    height: 99vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+/* box 1 */
+.box1{
+    height: 620px;
+    width: 670px;
+    /* border: 2px solid orange; */
+    display: flex;
+    gap: 20px;
+}
+
+.img1{
+    background-image: url("./image1.jpg");
+    background-size: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vh;
+    border-radius: 15px; 
+    transition-duration: 1s;
+}
+
+.img1:hover{
+    scale: 1.07;
+    filter: grayscale(50%);
+}
+
+.img2{
+    background-image: url("img3.png");
+    background-size: cover;
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    height: 66vh;
+    width: 50vh;
+    margin-top: 23.4%;
+    border-radius: 7px;
+    transition-duration: 1s;
+    
+}
+
+.img2:hover{
+    scale: 1.07;
+    filter: grayscale(50%);
+}
+ 
+/* box 3 */
+.box2{  
+    height: 620px;
+    width: 580px;
+    /* border: 2px solid orange; */
+
+}
+
+.box2 h2{
+    color: black;
+    margin-top: 140px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.box2 p{
+    font-size: 20px;
+    margin-right: 20px;
+    line-height: 25px; 
+    margin-top: 40px;
+    padding-left: 20px;   
+}
+
+#find{
+    height: 50px;
+    width: 140px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    font-family:'Trebuchet MS', sans-serif;
+    border: 1.5px solid black;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#find:hover{
+    color: black;
+    background-color: white;
+}
+.menu_img{
+    margin-top: 4%;
+}
+.button1{
+    height: 50px;
+    width: 140px;
+    color: black;
+    font-weight: bold;
+    background-color:white;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Trebuchet MS', sans-serif;
+    border: 1.5px solid black;
+    margin-top: 50px;
+    margin-left: 20px;    
+}
+.button1:hover{
+    color: white;
+    background-color: black;
+}
+/* Hero Three */
+
+.heroThree{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bx1{
+    height: 350px;
+    width: 300px;
+    /* border: 1px solid orange; */
+    border-radius: 7px;
+    font-size: 22px;
+}
+
+.bx1 h2{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.bx2{
+    background-image: url("./image4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid orange; */
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+
+.bx2:hover{
+    scale: 1.07;
+    filter: grayscale(80%);
+}
+
+
+.bx3{
+    background-image: url("./image3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid orange; */
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+.bx3:hover{
+    scale: 1.07;
+    filter: grayscale(80%);
+}
+
+.bx4{
+    background-image: url("image5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid orange; */
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+
+.bx4:hover{
+    scale: 1.07;
+    filter: grayscale(80%);
+}
+
+/* Hero Four */
+
+.heroFour{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* border: 1px solid black; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* gap: 30px; */
+}
+
+.title{
+    /* background-color: rgb(255, 0, 0); */
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title p{
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.story{
+    /* background-color: aliceblue; */
+    height: 450px;
+    width: 100%;
+    position: relative;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.story i{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.story p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.story h4{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.tOne{
+    /* border: 1px solid rgb(247, 247, 247); */
+    height: 60vh;
+    width: 60vh;
+    color: rgba(253, 254, 254, 0.892);
+}
+
+.tTwo{
+    /* border: 1px solid rgb(255, 255, 255); */
+    height: 60vh;
+    width: 60vh;
+    color: rgb(236, 242, 245);
+}
+
+.tThree{
+    /* border: 1px solid rgb(255, 255, 255); */
+    height: 60vh;
+    width: 60vh;
+    color: white;
+}
+
+/* hero five */
+
+.heroFive{
+        height: 90vh;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+}
+
+.contact1{
+    position: relative;
+    background-image: url("/image7.jpg");
+    background-size: cover;
+    /* background-size: 80vh; */
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.contact2{
+    position: relative;
+    height: 90vh;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.contact2 p{
+    margin-left: 20vh
+}
+#SEE{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', sans-serif;
+    margin-top: 90px;
+    margin-left: 20vh;
+}
+
+#p{
+    color: black;
+    font-weight: 700;
+    margin-top: 13vh;
+    font-family:'Trebuchet MS', sans-serif;
+    margin-bottom: 17px;
+    margin-left: 20vh
+}
+
+
+#Email{
+    font-weight: bold;
+    font-family:'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 7vh;
+    margin-left: 20vh;
+}
+
+
+#REASUANT{
+    font-weight: bold;
+    font-family:'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 7vh;
+    margin-left: 20vh
+}
+@media screen and (max-width:600px){ 
+    .nav{
+        height: 9vh;
+        width: 100%;
+        opacity: 0.7;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        position: fixed;
+    }
+    .menu{
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-right: 250px;
+    }
+    .about{
+        color: #FFFFFF;
+        text-decoration: none;
+        padding-right: 0px;
+    }
+    .logo{
+        background-image: url("/image8.jpg");
+        margin-top:2px;
+        margin-left:20px;
+        height: 55px;
+        width: 150px;
+        background-size: cover;
+        background-size: 16vh;
+        background-repeat: no-repeat;    
+    }
+    .background{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 90vh;
+        width: 100%;
+        position: relative;
+        top: 62px;
+    }
+    .heroOne{
+        background-image: url("./image2.jpg");
+        /* background-size: 230vh; */
+        background-size: 230vh;
+        height: 98vh;
+        width: 100%;
+        background-position-x: center ;
+    }
+    .img1{
+        background-image: url("./image1.jpg");
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;    
+    }
+    .box2{  
+        height: 1020px;
+        width: 380px;
+        /* border: 2px solid orange; */
+    }
+    .box2 p{
+        padding-bottom: 50px
+    }
+    .box1{
+        height: 80%;
+        width: 50%;
+        /* border: 2px solid orange; */
+        margin-top: 1%;
+        background-position: center;
+    }
+    .box2 h2{
+        color: black;
+        margin-top: 200px;
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+    .heroTwo{
+        padding-bottom: 0%;
+    }
+    .bx1{
+            
+        margin-left: 30%;
+    }
+    .bx2{
+        margin-left: -75%;
+    }
+    .heroThree{
+        height: 90vh;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .title{
+        margin-left: 15%;
+    }
+    .story{
+        margin-left: -2%;
+    }
+    .story{
+        /* background-color: aliceblue; */
+        height: 450px;
+        width: 100%;
+        position: relative;
+        top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .contact1{
+        background-image: url("/image7.jpg");
+        background-size: cover;
+        /* background-size: 80vh; */
+        background-position: center;
+        height: 98vh;
+        width: 50%;
+        /* border: 1px solid black; */
+        margin-left: -30%;
+    }
+    .contact2{
+        height: 40vh;
+        width: 50%;
+        /* border: 1px solid black; */
+        margin-left: -30%;
+    }
+    .heroFive{
+        height: 90vh;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    #e{
+        font-family:'Trebuchet MS', sans-serif;
+        margin-bottom: 10px;
+        margin-left: 20vh;
+    }
+}
+@media screen and (max-width:400px){
+    .logo{
+        margin-left: 40%;
+        margin-top: 6%;
+    }
+    .t1{
+        margin-top: -20%;
+    }
+    .box1{
+        height: 83%;
+    }
+    .heroTwo{
+        margin-top: -7%;
+        padding-bottom: 40px;
+    }
+    .box2{
+        height: 100px;
+        margin-top: -200%;
+    }
+    .box2 h2{
+        font-size: 24px;
+        margin-top: 68%;
+    }
+    .box2 p{
+        font-size: 20px;
+        margin-top: -15%;
+    }
+    .button2{
+        width: 100%;
+    }
+    .heroThree{
+        gap: 10px;
+        margin-left: -4%;
+        padding-bottom: 30px;
+    }
+    .bx1{
+        margin-top: -70%;
+    }
+    .bx2{
+        margin-top: 50%;
+    }
+    .bx3{
+        margin-top: 50%;
+    }
+    .bx4{
+        margin-top: 50%;
+    }
+    .heroFour{
+        height: 130vh;
+    }
+    .story{
+        margin-left: -2%;
+        width: 100%;
+    }
+    .tOne{
+        margin-left: -10%;
+        width: 10vh;
+        margin-right: 10%;
+    }
+    .tTwo{
+        width: 10vh;
+        margin-right: 4%;
+    }
+    .tThree{
+        width: 15vh;
+        margin-left: 5%;
+    }
+    .contact2{
+        margin-top: -15%;
+    }
+    .contact2 p{
+        margin-top: -10%;
+    }
+    #p{
+        margin-top: 5%;
+        padding-bottom: 4px;
+    }
+    #e{
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+    #RESUANT{
+        margin-top: 10%;
+    }
+    #T3{
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width:370px) and (max-height:920px){ 
+    .logo{
+        margin-left: 40%;
+        margin-top: 6%;
+    }
+    .t1{
+        margin-top: -20%;
+    }
+    .box1{
+        height: 83%;
+    }
+    .heroTwo{
+        margin-top: -7%;
+        
+    }
+    .box2{
+        height: 100px;
+        margin-top: -200%;
+    }
+    .box2 h2{
+        font-size: 24px;
+        margin-top: 68%;
+    }
+    .box2 p{
+        font-size: 20px;
+        margin-top: -15%;
+    }
+    .button2{
+        width: 100%;
+    }
+    .heroThree{
+        gap: 10px;
+        margin-left: -4%;
+        padding-bottom: 30px;
+    }
+    .bx1{
+        margin-top: -40%;
+    }
+    .bx2{
+        margin-top: 80%;
+    }
+    .bx3{
+        margin-top: 80%;
+    }
+    .bx4{
+        margin-top: 80%;
+    }
+    .heroFour{
+        height: 130vh;
+    }
+    .story{
+        margin-left: -2%;
+        width: 100%;
+    }
+    .tOne{
+        margin-left: -10%;
+        width: 10vh;
+        margin-right: 10%;
+    }
+    .tTwo{
+        width: 10vh;
+        margin-right: 4%;
+    }
+    .tThree{
+        width: 15vh;
+        margin-left: 5%;
+    }
+    .contact2{
+        margin-top: -15%;
+    }
+    .contact2 p{
+        margin-top: -10%;
+    }
+    #p{
+        margin-top: 5%;
+        padding-bottom: 4px;
+    }
+    #e{
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+    #RESUANT{
+        margin-top: 10%;
+    }
+    #T3{
+        padding-top: 10px;
+    }
+    .heroFive{
+        height: 100vh;
+    }
+}
+@media screen and (max-width:420px){
+    .bx1{
+        margin-top:-100%;
+    }
+}
