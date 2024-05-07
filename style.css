@@ -721,7 +721,7 @@ button{
         padding-top: 10px;
     }
 }
-@media screen and (max-width:370px) and (max-height:920px){ 
+@media screen and (max-width:370px){ 
     .logo{
         margin-left: 40%;
         margin-top: 6%;
@@ -757,16 +757,16 @@ button{
         padding-bottom: 30px;
     }
     .bx1{
-        margin-top: -30%;
+        margin-top: -20%;
     }
     .bx2{
-        margin-top: 70%;
+        margin-top: 90%;
     }
     .bx3{
-        margin-top: 70%;
+        margin-top: 60%;
     }
     .bx4{
-        margin-top: 70%;
+        margin-top: 90%;
     }
     .heroFour{
         height: 130vh;
