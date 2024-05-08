@@ -724,7 +724,7 @@ button{
         padding-top: 10px;
     }
 }
-@media screen and (max-width:370px) and (min-height:800px){ 
+@media screen and (max-width:380px){ 
     .logo{
         margin-left: 40%;
         margin-top: 6%;
@@ -814,9 +814,98 @@ button{
     .heroFive{
         height: 100vh;
     }
-}
-@media screen and (max-width:460px){
+    .logo{
+        margin-left: 40%;
+        margin-top: 6%;
+    }
+    .t1{
+        margin-top: -20%;
+    }
+    .box1{
+        height: 83%;
+        margin-top: -15%;
+    }
+    .heroTwo{
+        margin-top: -7%;
+        padding-bottom: 40px;
+    }
+    .box2{
+        height: 100px;
+        margin-top: -215%;
+    }
+    .box2 h2{
+        font-size: 24px;
+        margin-top: 68%;
+    }
+    .box2 p{
+        font-size: 20px;
+        margin-top: -15%;
+        padding-bottom: 0px;
+    }
+    .button2{
+        margin-top: -70%;
+        padding-bottom: 0px;
+    }
+    .heroThree{
+        gap: 10px;
+        margin-left: -4%;
+        padding-bottom: 30px;
+    }
     .bx1{
-        margin-top:-110%;
+        margin-bottom: -50%;
+    }
+    .bx2{
+        margin-top: 60%;
+    }
+    .bx3{
+        margin-top: 60%;
+    }
+    .bx4{
+        margin-top: 60%;
+    }
+    .heroFour{
+        height: 130vh;
+    }
+    .story{
+        margin-left: -2%;
+        width: 100%;
+    }
+    .tOne{
+        margin-left: -10%;
+        width: 10vh;
+        margin-right: 10%;
+    }
+    .tTwo{
+        width: 10vh;
+        margin-right: 4%;
+    }
+    .tThree{
+        width: 15vh;
+        margin-left: 5%;
+    }
+    .contact2{
+        margin-top: -15%;
+    }
+    .contact2 p{
+        margin-top: -10%;
+    }
+    #p{
+        margin-top: 5%;
+        padding-bottom: 4px;
+    }
+    #e{
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+    #RESUANT{
+        margin-top: 10%;
+    }
+    #T3{
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width:435px){
+    .bx1{
+        margin-top:-105%;
     }
 }
