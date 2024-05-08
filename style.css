@@ -643,6 +643,7 @@ button{
     }
     .box1{
         height: 83%;
+        margin-top: -15%;
     }
     .heroTwo{
         margin-top: -7%;
@@ -650,7 +651,7 @@ button{
     }
     .box2{
         height: 100px;
-        margin-top: -200%;
+        margin-top: -215%;
     }
     .box2 h2{
         font-size: 24px;
@@ -659,9 +660,11 @@ button{
     .box2 p{
         font-size: 20px;
         margin-top: -15%;
+        padding-bottom: 0px;
     }
     .button2{
-        width: 100%;
+        margin-top: -70%;
+        padding-bottom: 0px;
     }
     .heroThree{
         gap: 10px;
@@ -669,16 +672,16 @@ button{
         padding-bottom: 30px;
     }
     .bx1{
-        margin-top: -60%;
+        margin-bottom: -50%;
     }
     .bx2{
-        margin-top: 50%;
+        margin-top: 60%;
     }
     .bx3{
-        margin-top: 50%;
+        margin-top: 60%;
     }
     .bx4{
-        margin-top: 50%;
+        margin-top: 60%;
     }
     .heroFour{
         height: 130vh;
@@ -749,7 +752,7 @@ button{
         margin-top: -15%;
     }
     .button2{
-        width: 100%;
+        margin-top: -20%;
     }
     .heroThree{
         gap: 10px;
@@ -757,16 +760,16 @@ button{
         padding-bottom: 30px;
     }
     .bx1{
-        margin-top: 10%%;
+        margin-top: -20%;
     }
     .bx2{
-        margin-top: 90%;
+        margin-top: 60%;
     }
     .bx3{
-        margin-top: 90%;
+        margin-top: 60%;
     }
     .bx4{
-        margin-top: 90%;
+        margin-top: 60%;
     }
     .heroFour{
         height: 130vh;
@@ -812,7 +815,7 @@ button{
         height: 100vh;
     }
 }
-@media screen and (max-width:420px){
+@media screen and (max-width:460px){
     .bx1{
         margin-top:-110%;
     }
