@@ -724,7 +724,7 @@ button{
         padding-top: 10px;
     }
 }
-@media screen and (max-width:360px){ 
+@media screen and (max-width:370px) and (min-height:800px){ 
     .logo{
         margin-left: 40%;
         margin-top: 6%;
